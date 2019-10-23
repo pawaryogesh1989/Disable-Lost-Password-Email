@@ -1,19 +1,32 @@
 <?php
 
-if (!class_exists('Disable_Lost_Password_Email')) {
+class Disable_Lost_Password_Email
+{
 
-    class Disable_Lost_Password_Email {
+    /**
+     * Constructor of the class
+     * Author : Yogesh Pawar
+     * Date : 6th Sept 2019
+     */
+    function __construct()
+    {
 
-        function __construct() {
-
-            add_filter('allow_password_reset', array($this, 'wp_password_change_notification'));
-        }
-
-        public function wp_password_change_notification() {
-            return false;
-        }
-
+        add_filter('allow_password_reset', array(&$this, 'wpPasswordChangeNotification'));
     }
 
+    /**
+     * Function to disable lost email notification emails
+     * @return boolean
+     * Author : Yogesh Pawar
+     * Date : 6th Sept 2019
+     */
+    function wpPasswordChangeNotification()
+    {
+        return false;
+    }
 }
+
+//Initialising Class Plugin
+new Disable_Lost_Password_Email();
+
 ?>

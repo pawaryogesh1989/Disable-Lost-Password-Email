@@ -1,9 +1,10 @@
 === Disable Lost Password Email ===
-Contributors: pawaryogesh1989
-Tags: Disable Lost Password Email, disable email, disable lost password, wordpress disable lost password email, wordpress disable lost password, lost password email, lost password, reset password, reset password email.
-Requires at least: 3.0.1
-Tested up to: 4.9.8
-Stable tag: 4.9
+Contributors: pawaryogesh1989, clarionwpdeveloper
+Tags: disable email, disable lost password, wordpress disable lost password email, wordpress disable lost password, lost password email, lost password, reset password, reset password email.
+Requires at least: 4.6 or higher
+Tested up to: 5.2.4
+Stable tag: 5.0
+PHP Version: 5.6 or higher
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +16,19 @@ This plugin Disable Lost Password Email functionality for all the users.
 
 = Details =
 
+* Disables lost email functionality.
+* Functionality is disabled for all the users.
+
+== Changelog ==
+
+= 2.1.0 =
+* Compatibility changes to make it work with latest WordPress version.
+
+= 2.0.0 =
+* Compatibility changes to make it work with latest WordPress version.
+* Code changes for PHP 7.2 version.
+
+= 1.0.0 =
 * Disables lost email functionality.
 * Functionality is disabled for all the users.
 
