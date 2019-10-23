@@ -4,6 +4,6 @@
 
 This plugin Disable Lost Password Email functionality for all the users. 
 
-##Details
+## Details
 * Disables lost email functionality.
 * Functionality is disabled for all the users.
